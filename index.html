@@ -4,25 +4,295 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            
+            font-family: Arial, sans-serif;
+            
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .navbar {
+            background-color:black ;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            
+
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+
+        }
+        .navbar a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .Logo{
+            padding-left:30px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+        }
+        p{
+            border:solid 1px;
+            margin: .1rem;
+            padding: .2rem;
+            
+        }
+        
+        table{          
+            width:96%;            
+           margin-left: 20px;
+           border: none;
+           box-shadow: 0 4px 8px 0 rgba(188, 182, 182, 0.8);
+           transition: 0.3s;
+        }
+        
+        form{
+            margin: 50px 20px 0 20px;
+            
+            padding: 0 10px 20px 20px;
+            box-shadow: 0px 4px 8px 0 rgba(188, 182, 182, 0.8);
+           transition: 0.3s;
+            
+            
+        }
+        h2{
+            display: flex;
+            justify-content:left;
+            align-items: center;
+            margin: 20px 0 10px 0;
+            padding-top: 20px;
+        }
+        h3{
+            padding-left:20px; 
+            padding-top: 20px;
+            margin-bottom: 15px;
+        }
+       
+        
+        input{
+            width: 98%;
+            
+        }
+        .button-container{
+            display: flex;
+            justify-content:left;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+            
+
+
+        }
+        .button-container>button{
+            width: 15%;
+            height:2rem;
+            background:rgb(61, 58, 230);
+            color: white;
+            border-radius: .4rem;
+        }
+        main{
+        
+            margin: 20px 100px 20px 100px;
+            font-size: small;
+            
+            
+        }
+        .input-container{
+            margin: 10px 0 10px 0;
+
+        }
+        .input-container>input{
+            margin: 5px 0 5px 0;
+        }
+        .input-container>label>sup{
+            color: red;
+            font-size:medium;
+        }
+        footer p{
+            background-color: rgb(7, 7, 7,0.6);
+            color: white;
+            text-align: center;
+            justify-content: center;
+            margin-top: 20px;
+            height:3rem;
+            padding-top:40px;
+            
+        }
+        marquee{
+            background-color: yellow;
+            color: black;
+            
+
+        }
+       
+     
+    </style>
 </head>
 <body>
-    <h1>Mahatma Gandhi Biography: Family, Education, History, Movements, and Facts</h1>
-    <p>Mahatma Gandhi's life and methods of struggle impact people now also. The greatness of a man is realized when his life influences people to change for the better, and so was Mahatma Gandhi's life. After decades of his death, after reading about him, people drastically changed their lives for the better. Let's have a look at Mahatma Gandhi's life, movements, famous quotations written by him, etc. Find out about him this Martyr's Day!</p>
-    <p>Mohandas Karamchand Gandhi or <b>Mahatma Gandhi</b>  was a renowned freedom activist and an authoritative or powerful political leader who played an essential role in India's struggle for Independence against British rule of India. He was also considered the father of the country. No doubt, he also improved the lives of India's poor people. His birthday is celebrated every year as Gandhi Jayanti. His ideology of truth and non-violence influenced many and was also adopted by Martin Luther and Nelson Mandela for their struggle movement.</p>
-    <h2>Mahatma Gandhi: Early Life and Family Background</h2>
-    <p>He was born on 2 October, 1869 in Porbandar, Gujarat. His father’s name was Karamchand Gandhi and his mother’s name was Putlibai. At the age of 13, Mahatma Gandhi was married to Kasturba which is an arranged marriage. They had four sons namely Harilal, Manilal, Ramdas and Devdas. She supported all the endeavors of her husband until her death in 1944.</p>
-    <br>
-    <p>His father was Dewan or Chief Minister of Porbandar, the capital of a small principality in Western British India (Now Gujarat State). Mahatma Gandhi was the son of his father's fourth wife Putlibai, who belonged to an affluent Vaishnava family. Let us tell you that in his earlier days, he was deeply influenced by the stories of Shravana and Harishchandra as they reflected the importance of truth.</p><br>
-    <h2>Mahatma Gandhi: Education </h2><br>
-    <p>When Gandhi was 9 years old he went to a local school at Rajkot and studied the basics of arithmetic, history, geography, and languages. At the age of 11, he went to a high school in Rajkot. Because of his wedding, at least about one year, his studies were disturbed and later he joined and completed his schooling. He joined Samaldas college in Bhavnagar in 1888 at Gujarat. Later, one of his family friends Mavji Dave Joshi pursued further studies i.e. law in London. Gandhiji was not satisfied with his studies at Samaldas College and so he became excited by the London proposal and managed to convince his mother and wife that he will not touch non-veg, wine, or women.</p><br>
-    <h3>Off to London</h3><br>
-    <p>In the year 1888, Mahatma Gandhi left for London to study law. Thereafter 10 days after arrival, he joined the Inner Temple, one of the four London law colleges, and studied and practiced law. In London, he also joined a Vegetarian Society and was introduced to Bhagavad Gita by some of his vegetarian friends. Later, Bhagavad Gita set an impression and influenced his life.</p>
-    <a href="https://www.jagranjosh.com/general-knowledge/mahatma-gandhi-1411387880-1">more details</a>
+    <nav>
+        
+        
+        
+       
+        <div class="navbar">
+             <div class="Logo">Library System</div>
+             <ul>
+                <li><a href="#book">Books</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact us">Contact Us</a></li>
+                <li><a href="#logout"> Logout</a></li>
 
 
 
+             </ul>
+                
+                
+                
+                
+
+             
+           
+        </div>
+
+    </nav>
+   <marquee behavior="alternate" direction="rights"><b>"This project was developed solely for practice."</b></marquee>
+    <main>
+    <div class="table-container">
+    <table border="1px">
+       
+            <h3>Books</h3>
+            <th class="hading">
+                <tr>
+                    <td> <b>Books id</b></td>
+                    <td><b>Title</b></td>
+                    <td><b>Author</b></td>
+                    <td><b>Genre</b></td>
+                    <td><b>Availability</b></td>
+                </tr>
+            </th>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#book title1">Book Title 1</a><br>
+                    <div>
+                        <p>Publication Date: 2000</p><br>
+                        <p>Page Count: 250</p><br>
+                        <p>ISBN: 123-4567890123</p>
+                        
+                    </div>
+                </td>
+                <td>Author Name 1</td>
+                <td>Gener 1</td>
+                <td>Available</td>
 
 
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <a href="#book title2">Book Title 2</a>
+                    <div>
+                        <p>Publication Date: 2005</p>
+                        <p>Page Count: 300</p>
+                        <p>ISBN: 123-4567890456</p>
+                    </div>
+                </td>
+                <td>Author Name 2</td>
+                <td>Genre 2</td>
+                <td>Not Available</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <a href="#book title3">Book Title 3</a>
+                    <div>
+                        <p>Publication Date: 2010</p>
+                        <p>Page Count: 350</p>
+                        <p>ISBN: 123-4567890789</p>
+                    </div>
+                </td>
+                <td>Author Name 3</td>
+                <td>Genre 3</td>
+                <td>Available</td>
+            </tr>
+        
+    </table>
+</div>
+    <section>
+        <div class="register-container">
+        
+        <form class="form-container">
+            <h2>Register</h2>
+            <div class="input-container">
+                <label for="firstname">First Name:<sup>*</sub></label><br>
+            <input type="text" name="first-name" id="first-name" required>
+            </div>
+          <div class="input-container">
+            <label for="lastname">Last Name:<sup>*</sub></label><br>
+            <input type="text" name="last-name" id="last-name" required>
+          </div>
+          <div class="input-container">
+            <label for="data-of-birth">Date Of Birth:<sup>*</sub></label><br>
+            <input type="date" name="data-of-birth" id="data-of-birth" required>
+
+          </div class="input-container">
+          <div class="input-container">
+            <label for="age">Age:</label><br>
+            <input type="age" name="age" id="age">
+          </div>
+
+          <div class="input-container">
+            <label for="email">Email:<sup>*</sub></label><br>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="input-container">
+            <label for="password">Password:<sup>*</sub></label><br>
+            <input type="password" name="password" id="password" required>
+          </div>
+          <div class="input-container">
+            <label for="conform-password">Conform Password:<sup>*</sub></label><br>
+            <input type="conform-password" name="conform-password" id="conform-password" required>
+          </div>
+          <div class="button-container">
+            <button type="submit" >Submit</button>
+
+          </div>
+          
+
+           
+
+        </form>
+        
+        </div>
+      
+
+    </section>
+</main>
+<footer>
+    <p>©All rights are reserved | MyLibrary 2024 |LOKENDRA JATAV| BIA 04 | Email: monupandey2649@gmail.com |</p>
+</footer>
+    
+
+    
+  
     
 </body>
 </html>
