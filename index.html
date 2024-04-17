@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            
+            font-family: Arial, sans-serif;
+            
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .navbar {
+            background-color:black ;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            
+
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+
+        }
+        .navbar a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .Logo{
+            padding-left:30px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+        }
+        p{
+            border:solid 1px;
+            margin: .1rem;
+            padding: .2rem;
+            
+        }
+        
+        table{          
+            width:96%;            
+           margin-left: 20px;
+           border: none;
+           box-shadow: 0 4px 8px 0 rgba(188, 182, 182, 0.8);
+           transition: 0.3s;
+        }
+        
+        form{
+            margin: 50px 20px 0 20px;
+            
+            padding: 0 10px 20px 20px;
+            box-shadow: 0px 4px 8px 0 rgba(188, 182, 182, 0.8);
+           transition: 0.3s;
+            
+            
+        }
+        h2{
+            display: flex;
+            justify-content:left;
+            align-items: center;
+            margin: 20px 0 10px 0;
+            padding-top: 20px;
+        }
+        h3{
+            padding-left:20px; 
+            padding-top: 20px;
+            margin-bottom: 15px;
+        }
+       
+        
+        input{
+            width: 98%;
+            
+        }
+        .button-container{
+            display: flex;
+            justify-content:left;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+            
+
+
+        }
+        .button-container>button{
+            width: 15%;
+            height:2rem;
+            background:rgb(61, 58, 230);
+            color: white;
+            border-radius: .4rem;
+        }
+        main{
+        
+            margin: 20px 100px 20px 100px;
+            font-size: small;
+            
+            
+        }
+        .input-container{
+            margin: 10px 0 10px 0;
+
+        }
+        .input-container>input{
+            margin: 5px 0 5px 0;
+        }
+        .input-container>label>sup{
+            color: red;
+            font-size:medium;
+        }
+        footer p{
+            background-color: rgb(7, 7, 7,0.6);
+            color: white;
+            text-align: center;
+            justify-content: center;
+            margin-top: 20px;
+            height:3rem;
+            padding-top:40px;
+            
+        }
+        marquee{
+            background-color: yellow;
+            color: black;
+            
+
+        }
+       
+     
+    </style>
+</head>
+<body>
+    <nav>
+        
+        
+        
+       
+        <div class="navbar">
+             <div class="Logo">Library System</div>
+             <ul>
+                <li><a href="#book">Books</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact us">Contact Us</a></li>
+                <li><a href="#logout"> Logout</a></li>
+
+
+
+             </ul>
+                
+                
+                
+                
+
+             
+           
+        </div>
+
+    </nav>
+   <marquee behavior="alternate" direction="rights"><b>"This project was developed solely for practice."</b></marquee>
+    <main>
+    <div class="table-container">
+    <table border="1px">
+       
+            <h3>Books</h3>
+            <th class="hading">
+                <tr>
+                    <td> <b>Books id</b></td>
+                    <td><b>Title</b></td>
+                    <td><b>Author</b></td>
+                    <td><b>Genre</b></td>
+                    <td><b>Availability</b></td>
+                </tr>
+            </th>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#book title1">Book Title 1</a><br>
+                    <div>
+                        <p>Publication Date: 2000</p><br>
+                        <p>Page Count: 250</p><br>
+                        <p>ISBN: 123-4567890123</p>
+                        
+                    </div>
+                </td>
+                <td>Author Name 1</td>
+                <td>Gener 1</td>
+                <td>Available</td>
+
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <a href="#book title2">Book Title 2</a>
+                    <div>
+                        <p>Publication Date: 2005</p>
+                        <p>Page Count: 300</p>
+                        <p>ISBN: 123-4567890456</p>
+                    </div>
+                </td>
+                <td>Author Name 2</td>
+                <td>Genre 2</td>
+                <td>Not Available</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <a href="#book title3">Book Title 3</a>
+                    <div>
+                        <p>Publication Date: 2010</p>
+                        <p>Page Count: 350</p>
+                        <p>ISBN: 123-4567890789</p>
+                    </div>
+                </td>
+                <td>Author Name 3</td>
+                <td>Genre 3</td>
+                <td>Available</td>
+            </tr>
+        
+    </table>
+</div>
+    <section>
+        <div class="register-container">
+        
+        <form class="form-container">
+            <h2>Register</h2>
+            <div class="input-container">
+                <label for="firstname">First Name:<sup>*</sub></label><br>
+            <input type="text" name="first-name" id="first-name" required>
+            </div>
+          <div class="input-container">
+            <label for="lastname">Last Name:<sup>*</sub></label><br>
+            <input type="text" name="last-name" id="last-name" required>
+          </div>
+          <div class="input-container">
+            <label for="data-of-birth">Date Of Birth:<sup>*</sub></label><br>
+            <input type="date" name="data-of-birth" id="data-of-birth" required>
+
+          </div class="input-container">
+          <div class="input-container">
+            <label for="age">Age:</label><br>
+            <input type="age" name="age" id="age">
+          </div>
+
+          <div class="input-container">
+            <label for="email">Email:<sup>*</sub></label><br>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="input-container">
+            <label for="password">Password:<sup>*</sub></label><br>
+            <input type="password" name="password" id="password" required>
+          </div>
+          <div class="input-container">
+            <label for="conform-password">Conform Password:<sup>*</sub></label><br>
+            <input type="conform-password" name="conform-password" id="conform-password" required>
+          </div>
+          <div class="button-container">
+            <button type="submit" >Submit</button>
+
+          </div>
+          
+
+           
+
+        </form>
+        
+        </div>
+      
+
+    </section>
+</main>
+<footer>
+    <p>©All rights are reserved | MyLibrary 2024 |LOKENDRA JATAV| BIA 04 | Email: monupandey2649@gmail.com |</p>
+</footer>
+    
+
+    
+  
+    
+</body>
+</html>
